@@ -1,0 +1,10 @@
+/**
+ * Created by Володимир on 20.08.2021.
+ */
+
+lightning-card {
+    display: block;
+    background-color: #d8e8f3;
+    padding: 4px;
+    min-height: 1ch;
+}

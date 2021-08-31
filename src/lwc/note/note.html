@@ -1,0 +1,17 @@
+<!--
+ - Created by Володимир on 20.08.2021.
+ -->
+
+<!-- Note -->
+<template>
+    <template if:false={note.secret}>
+        <div>
+            {note.text}
+        </div>
+    </template>
+    <template if:true={note.secret}>
+        <div class="hidden">
+            {note.text}
+        </div>
+    </template>
+</template>

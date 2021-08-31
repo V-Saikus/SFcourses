@@ -1,0 +1,13 @@
+/**
+ * Created by Володимир on 20.08.2021.
+ */
+
+.hidden {
+    background-color: gray;
+    color: gray;
+    cursor: pointer;
+}
+.hidden:hover:active {
+    color:gray;
+    background-color:initial;
+}

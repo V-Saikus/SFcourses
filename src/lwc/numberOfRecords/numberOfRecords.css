@@ -1,0 +1,29 @@
+/**
+ * Created by Володимир on 25.08.2021.
+ */
+
+
+lightning-card {
+    display: block;
+    background-color: #d8e8f3;
+    border: 1px solid #cd1b2c;
+    color: #cd1b2c;
+    text-align: center;
+    padding: 4px;
+    min-height: 1ch;
+    width: 50%;
+    align-self: center;
+    alignment: center;
+}
+
+div {
+    color: #31a55b;
+}
+
+lightning-button{
+    border: 1px solid #cd1b2c;
+    border-radius: 3px;
+    display: inline-flex;
+    --sds-c-button-text-color: #cd1b2c;
+}
+
